@@ -10,7 +10,6 @@ class Post(models.Model):
 	text = models.TextField()
 	created_date = models.DateTimeField(default = timezone.now)
 	published_date = models.DateTimeField(default = timezone.now)
-#	likes = PositiveIntegerField()
 #	comments = TextField()
 
 	def publish(self):
